@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Fold Glass",
+      "hasCanvas": true,
+      "bodyTextLen": 520,
+      "bodyTextHash": "fd869ef26e9166d801c267e9f339a8f1812dc1cf9d6d3ff104ca8fd05630b3a0",
+      "bodyTextPrefix": "viernes, 11 sep Hoy FG Todos Salud Trabajo Lectura Viajes Música",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Fold Glass",
+      "hasCanvas": true,
+      "bodyTextLen": 520,
+      "bodyTextHash": "fd869ef26e9166d801c267e9f339a8f1812dc1cf9d6d3ff104ca8fd05630b3a0",
+      "bodyTextPrefix": "viernes, 11 sep Hoy FG Todos Salud Trabajo Lectura Viajes Música",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

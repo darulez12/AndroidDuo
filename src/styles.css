@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0b0b0c;
+  --color-elevated: #141416;
+  --color-frost: #f4f4f5;
+  --color-steel: #8b919a;
+  --color-fg: #f4f4f5;
+  --color-muted: #8b919a;
+  --font-sans:
+    "SF Pro Text", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #000;
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100%;
+    min-height: 100dvh;
+    overflow: hidden;
+    overscroll-behavior: none;
+    background: #000;
+    color: var(--color-frost);
+    font-family: var(--font-sans);
+    touch-action: manipulation;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+.fold-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 28px;
+  background: transparent;
+}
+
+.fold-slider:focus {
+  outline: none;
+}
+
+.fold-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 999px;
+  background: color-mix(in srgb, #f4f4f5 22%, transparent);
+}
+
+.fold-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  margin-top: -9px;
+  border-radius: 50%;
+  background: #f4f4f5;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.fold-slider::-moz-range-track {
+  height: 4px;
+  border-radius: 999px;
+  background: color-mix(in srgb, #f4f4f5 22%, transparent);
+}
+
+.fold-slider::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border: 0;
+  border-radius: 50%;
+  background: #f4f4f5;
+}
